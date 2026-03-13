@@ -31,4 +31,5 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'OK' }).click();
   await page.getByRole('button', { name: 'Submit' }).click();
   await page.getByRole('button', { name: 'OK' }).click();
+  await page.goto('https://sgm-store-empower.mango-qa.siammakro.cloud/login.html');
 });
